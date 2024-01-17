@@ -21,6 +21,7 @@ namespace HelloWorldTest02.Controller
             _homeController = new HomeController();
             var result = (ViewResult)_homeController.Index();
             result.Model.ShouldBeNull();
+            Console.WriteLine("test sucessfully");
         }
     }
 }
